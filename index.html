@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open House Cafe</title>
+
+    <!-- Google Font & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Open House Cafe</h2>
+            </a>
+
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section" id="home">
+            <div class="section-content hero-content">
+                <div class="hero-details">
+                    <h2 class="title">The Perfect Moment</h2>
+                    <h3 class="subtitle">
+                        Fresh, tasty and affordable treats at Open House Cafe.
+                    </h3>
+                    <p class="description">
+                        Enjoy delicious coffee, momos, sandwiches, pizzas, ice cream and maggie
+                        all in one cozy place.
+                    </p>
+                    <div class="buttons">
+                        <a href="#menu" class="button order-now">View Menu</a>
+                        <a href="#contact" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <!-- Use your own hero image here -->
+                    <img src="src/hero.png" alt="Open House Cafe" class="hero-image" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu section -->
+        <section class="menu-section" id="menu">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="section-content menu-grid">
+
+                <!-- Coffee -->
+                <div class="menu-card">
+                    <h3 class="menu-heading">Coffee</h3>
+                    <ul class="item-list">
+                        <li><span>Cold Coffee</span><span>₹50</span></li>
+                        <li><span>Cold Coffee + Waffle</span><span>₹60</span></li>
+                        <li><span>Cold Coffee + Waffle + Chocolate</span><span>₹70</span></li>
+                        <li><span>Cold Coffee + Waffle + Mix Topping</span><span>₹80</span></li>
+                        <li><span>Cold Coffee + Chocolate</span><span>₹70</span></li>
+                        <li><span>Cold Coffee + Ice Cream</span><span>₹90</span></li>
+                        <li><span>Cold Coffee + Cadbury</span><span>₹80</span></li>
+                        <li><span>Cold Coffee + KitKat</span><span>₹80</span></li>
+                        <li><span>Heavy Loaded Coffee</span><span>₹110</span></li>
+                    </ul>
+                </div>
+
+                <!-- Momos -->
+                <div class="menu-card">
+                    <h3 class="menu-heading">Momo's</h3>
+                    <ul class="item-list">
+                        <li><span>Veg Steam Momo</span><span>₹50</span></li>
+                        <li><span>Paneer Steam Momo</span><span>₹60</span></li>
+                        <li><span>Veg Fried Momo</span><span>₹60</span></li>
+                        <li><span>Chocolate Momo</span><span>₹60</span></li>
+                        <li><span>Paneer Fried Momo</span><span>₹70</span></li>
+                        <li><span>Cheese Loaded Momo</span><span>₹70</span></li>
+                        <li><span>Kurkure Veg Momo</span><span>₹70</span></li>
+                        <li><span>Kurkure Paneer Momo</span><span>₹80</span></li>
+                        <li><span>Mix Veg + Paneer Plate</span><span>₹80</span></li>
+                        <li><span>Mix Fried Veg + Paneer</span><span>₹100</span></li>
+                    </ul>
+                </div>
+
+                <!-- Sandwich -->
+                <div class="menu-card">
+                    <h3 class="menu-heading">Sandwich</h3>
+                    <ul class="item-list">
+                        <li><span>Veg Sandwich</span><span>₹50</span></li>
+                        <li><span>Paneer Sandwich</span><span>₹60</span></li>
+                        <li><span>Veg Grill Sandwich</span><span>₹60</span></li>
+                        <li><span>Paneer Grill Sandwich</span><span>₹70</span></li>
+                    </ul>
+                </div>
+
+                <!-- Ice Cream -->
+                <div class="menu-card">
+                    <h3 class="menu-heading">Ice Cream</h3>
+                    <ul class="item-list">
+                        <li><span>Plain Ice Cream</span><span>₹50</span></li>
+                        <li><span>Ice Cream Topping</span><span>₹60</span></li>
+                        <li><span>Loaded Ice Cream</span><span>₹70</span></li>
+                        <li><span>Ice Cream + Topping + Chocolate</span><span>₹80</span></li>
+                    </ul>
+                </div>
+
+                <!-- Pizza -->
+                <div class="menu-card">
+                    <h3 class="menu-heading">Pizza</h3>
+                    <ul class="item-list">
+                        <li><span>Veg Pizza</span><span>₹90</span></li>
+                        <li><span>Paneer Pizza</span><span>₹110</span></li>
+                        <li><span>Peri Peri Pizza</span><span>₹110</span></li>
+                        <li><span>Margherita Pizza</span><span>₹120</span></li>
+                        <li><span>Margherita + Olive Pizza</span><span>₹140</span></li>
+                        <li><span>Margherita + Jalapeno Pizza</span><span>₹140</span></li>
+                        <li><span>Heavy Loaded Pizza</span><span>₹150</span></li>
+                    </ul>
+                </div>
+
+                <!-- Maggie -->
+                <div class="menu-card">
+                    <h3 class="menu-heading">Maggie's</h3>
+                    <ul class="item-list">
+                        <li><span>Plain Maggie</span><span>₹40</span></li>
+                        <li><span>Cheese Maggie</span><span>₹50</span></li>
+                        <li><span>Vegetable Maggie</span><span>₹55</span></li>
+                        <li><span>Heavy Loaded Cheese Maggie</span><span>₹60</span></li>
+                        <li><span>Cheese + Vegetable Maggie</span><span>₹70</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about-section" id="about">
+            <div class="section-content about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Us</h2>
+                    <p>
+                        Open House Cafe is a cozy place to relax with friends and enjoy
+                        fresh coffee, snacks and quick bites inspired by your local tastes.
+                    </p>
+                    <p>
+                        The cafe focuses on quick service, quality ingredients and value for
+                        money so you can enjoy more for less.
+                    </p>
+                </div>
+                <div class="about-image-wrapper">
+                    <!-- Replace image as needed -->
+                    <img src="src/about.png" alt="Inside Open House Cafe" class="about-image" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="section-content contact-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Bhiwandi, Maharashtra, India</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+91-99999 99999</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>openhousecafe@example.com</p>
+                    </li>
+                </ul>
+
+                <form id="contactForm" class="contact-form">
+                    <input type="text" id="name" placeholder="Your name" class="form-input" required />
+                    <input type="email" id="email" placeholder="Your email" class="form-input" required />
+                    <textarea id="message" placeholder="Your message" class="form-input" required></textarea>
+                    <button type="submit" class="button submit-button">Send Message</button>
+                    <p id="formStatus" class="form-status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="section-content footer-content">
+            <p>© 2026 Open House Cafe. All rights reserved.</p>
+            <p>Fresh • Tasty • Affordable</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
