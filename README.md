@@ -32,9 +32,7 @@ OpenHouseCafe/
 ├── style.css  
 ├── script.js  
 ├── README.md  
-└── src/  
-      ├── about.png  
-      └── hero.jpg  
+└── src/ 
 
 ---
 
