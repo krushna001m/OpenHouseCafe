@@ -33,8 +33,8 @@ OpenHouseCafe/
 ├── script.js  
 ├── README.md  
 └── src/  
-&nbsp;&nbsp;&nbsp;&nbsp;├── about.png  
-&nbsp;&nbsp;&nbsp;&nbsp;└── hero.jpg  
+      ├── about.png  
+      └── hero.jpg  
 
 ---
 
@@ -49,17 +49,6 @@ OpenHouseCafe/
 3. Open `index.html` in your browser  
    (You can double-click the file or use Live Server)
 
----
-
-## 🌍 Live Website (Optional)
-
-You can host this project using **GitHub Pages**:
-
-1. Go to Repository → Settings  
-2. Open Pages section  
-3. Select branch: `main`  
-4. Select folder: `/root`  
-5. Save and get your live website link  
 
 ---
 
